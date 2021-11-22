@@ -31,7 +31,7 @@
     <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
           <!--IMAGEN DE NAVBAR-->
-            <img src="../imagen/icono.png" alt="iconolosgenios" width="8%" height="8%">
+          <img src="../imagen/icono.png" alt="iconolosgenios" width="8%" height="8%">
             <!--TITULO DEL NAVBAR-->
             <a class="navbar-brand" href="./index.html">Los Genios</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -42,7 +42,7 @@
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                   <!--TITUO DEL MENU DESPLEGABLE-->
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Los Genios</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="./index.html" class="text-muted text-decoration=none">Los Genios</a></h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
@@ -104,15 +104,17 @@
   <!--Aca irian las fotos con grids -->
   <p>En este espacio iremos subiendo fotos, videos y explicaciones de las actividades relacionadas al
     establecimiento</p>
-  <ul>
-    <li><img src="../fotos-videos/actividad1.jpg" alt="taller de murga niños"></li>
-    <li><img src="../fotos-videos/regalo1.jpg" alt="tortas hechas por niños"></li>
-    <li><img src="../fotos-videos/regalo2.jpg" alt="tortas artesanales"></li>
-    <li><img src="../fotos-videos/regalo3.jpg" alt="tortas para regalo"></li>
-    <li><img src="../fotos-videos/fotos-actividades/ajedrez.jpg" alt="niños jugando ajedrez"></li>
-    <li><img src="../fotos-videos/fotos-actividades/ajedrez1.jpg" alt="clase de ajedrez niños"></li>
-    <li><video src="../fotos-videos/fotos-actividades/video-percusion.mp4" alt="ensayo de percusion" controls></video></li>
-  </ul>
+    <section>
+      <div class="grid-containerActividades">
+        <a class="imagenActividades"><img class="galeriaGrid-actividades-foto" src="../fotos-videos/actividad1.jpg" alt="taller de murga niños"></a>
+        <a class="imagenActividades"><img class="galeriaGrid-actividades-foto" src="../fotos-videos/regalo1.jpg" alt="tortas hechas por niños"></a>
+        <a class="imagenActividades"><img class="galeriaGrid-actividades-foto" src="../fotos-videos/regalo2.jpg" alt="tortas artesanales"></a>
+        <a class="imagenActividades"><img class="galeriaGrid-actividades-foto" src="../fotos-videos/regalo3.jpg" alt="tortas para regalo"></a>
+        <a class="imagenActividades"><img class="galeriaGrid-actividades-foto" src="../fotos-videos/fotos-actividades/ajedrez.jpg" alt="niños jugando ajedrez"></a>
+        <a class="imagenActividades"><img class="galeriaGrid-actividades-foto" src="../fotos-videos/fotos-actividades/ajedrez1.jpg" alt="clase de ajedrez niños"></a>
+        <a class="imagenActividades"><video src="../fotos-videos/fotos-actividades/video-percusion.mp4" alt="ensayo de percusion" controls></video></a>
+    </div>
+</section>
   <!--acá inicia mi footer-->
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-dark text-muted">

@@ -3,6 +3,9 @@
 html{
     scroll-behavior: smooth;
 }
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
 *{
     margin: 0pt;
     padding: 0pt;
@@ -16,6 +19,13 @@ html{
 h2{
     padding: 2em;
     position:static;
+}
+.svg-iconos{
+    transition: all 300ms ease-in-out;
+}
+.svg-iconos:hover{
+    transform: scale(1.05);
+
 }
 /*galeria de la pagina Fotos grid*/
 .grid-container{
@@ -45,4 +55,42 @@ h2{
 }
 .img-galeria:nth-child(15){
     grid-row: span 3;
+}
+/*GALERIA DE FOTOS DE COLONIA DE VERANO*/
+.container-galeria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+.img-galeria{
+    width: 30%;
+    transition: all 300ms ease-in-out;
+}
+.img-galeria:hover{
+    transform: scale(1.05);
+    box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
+}
+/*FOTOS DE LA PAGINA ACTIVIDADES*/
+.grid-containerActividades{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin: 1rem;
+}
+.imagenActividades{
+    width: 30%;
+    transition: all 300ms ease-in-out;
+}
+.imagenActividades:hover{
+    transform: scale(1.05);
+    box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
 }
