@@ -17,12 +17,12 @@ a:link, a:visited, a:active {
     display: flex;
     position: relative;
 }
-/*Subtitulo en movimiento*/
+/*Subtitulo en movimiento del index*/
 .subtituloGenios {
-    background-color:#d33a2c;
+    background-color:#234f6d;
     padding-top: 6rem;
   margin: 0;
-  height: calc(50vh - 20px);
+  height: calc(40vh - 20px);
   font-size: 4rem;
   text-align: center;
   color: #fff;
@@ -71,6 +71,16 @@ sub {
   100% {
     opacity: 0.5;
   }
+}
+/*subtitulos de las demas paginas*/
+.subtitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  font-size: 2.5rem;
+  font-family: "Pacifico", cursive;
 }
 /*iconos*/
 .svg-iconos{
@@ -128,29 +138,7 @@ sub {
     -webkit-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
 }
-/*FOTOS DE LA PAGINA ACTIVIDADES*/
-.grid-containerActividades{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-    margin: 1rem;
-}
-.imagenActividades{
-    width: 30%;
-    transition: all 300ms ease-in-out;
-}
-.imagenActividades:hover{
-    transform: scale(1.05);
-    box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 3px 35px 5px rgba(0,0,0,0.75);
-}
 /*TARJETAS DEL INDEX*/
-body{
-    background-color:#FCBF49;
-  }
   .tarjetas{margin:10vh}
   .card{
     border: none;
@@ -221,4 +209,10 @@ body{
    background: rgb(35,79,109);
   background: linear-gradient(0deg, rgba(35,79,109,0.3785889355742297) 0%, rgba(69,95,113,1) 100%);
   }
+  }
+  /*video de la pagina PROYECTO ANUAL*/
+  .videoProA{
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2rem;
   }
