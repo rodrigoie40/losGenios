@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 @import "./media-queries";
+@import "./variables/variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Meow+Script&family=Pacifico&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap');
 html{
     scroll-behavior: smooth;
@@ -11,11 +12,8 @@ a:link, a:visited, a:active {
     margin: 0pt;
     padding: 0pt;
 }
-#carouselGenios{
-    margin: 5%;
-    width: 80%;
-    display: flex;
-    position: relative;
+.carusel-item{
+@import "./variables/variables.scss";
 }
 /*Subtitulo en movimiento del index*/
 .subtituloGenios {

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
 /*las MQ las importé de bootstrap nose si estan bien asi pero cuando le di a inspeccionar funcionaba*/
+/*variables para el carrousel del index*/
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Meow+Script&family=Pacifico&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap");
 html {
   scroll-behavior: smooth;
@@ -15,11 +16,8 @@ a:link, a:visited, a:active {
   padding: 0pt;
 }
 
-#carouselGenios {
-  margin: 5%;
-  width: 80%;
-  display: flex;
-  position: relative;
+.carusel-item {
+  /*variables para el carrousel del index*/
 }
 
 /*Subtitulo en movimiento del index*/
