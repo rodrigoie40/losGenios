@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+/*PAGINA ACTIVIDADES*/
 /*las MQ las importé de bootstrap nose si estan bien asi pero cuando le di a inspeccionar funcionaba*/
-/*variables para el carrousel del index*/
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Meow+Script&family=Pacifico&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap");
 html {
   scroll-behavior: smooth;
@@ -16,13 +16,9 @@ a:link, a:visited, a:active {
   padding: 0pt;
 }
 
-.carusel-item {
-  /*variables para el carrousel del index*/
-}
-
 /*Subtitulo en movimiento del index*/
 .subtituloGenios {
-  background-color: #234f6d;
+  background-color: #18022c;
   padding-top: 6rem;
   margin: 0;
   height: calc(40vh - 20px);
@@ -75,6 +71,24 @@ sub {
     opacity: 0.5;
   }
 }
+/*info index*/
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+
 /*subtitulos de las demas paginas*/
 .subtitulo {
   display: flex;
@@ -232,10 +246,40 @@ sub {
 }
 
 /*video de la pagina PROYECTO ANUAL*/
-.videoProA {
+.videoPadre {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.videoProa {
+  display: flex;
   justify-content: center;
   align-content: center;
   padding-bottom: 2rem;
+  align-items: center;
+}
+
+/*PAGINA CONTACTO*/
+/*TITULO*/
+.formularioTitle {
+  font-size: 2rem;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/*FORMULARIO*/
+.formularioContacto {
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 12px 12px 12px rgba(0, 0, 0, 0.2);
+  padding: auto;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

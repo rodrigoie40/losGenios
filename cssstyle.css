@@ -238,4 +238,26 @@ sub {
   padding-bottom: 2rem;
 }
 
+/*PAGINA CONTACTO*/
+/*TITULO*/
+.formularioTitle {
+  font-size: 2rem;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/*FORMULARIO*/
+.formularioContacto {
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 12px 12px 12px rgba(0, 0, 0, 0.2);
+  padding: auto;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
 /*# sourceMappingURL=cssstyle.css.map */

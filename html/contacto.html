@@ -15,6 +15,8 @@
     content="Los genios busca ofrecer las herramientas necesarias a los niños y jóvenes para que logren desarrollar su autoestima y así afianzar su autonomía para poder convivir de manera tolerante y solidaria en la sociedd en la que viven, para tomar decisiones en forma libre y responsable, que favorezcan a mantener las relaciones interpersonales y contribuyan a su realización personal">
    <!--titulo de mi página-->
   <title>Los Genios casa de niñx y centro juvenil|Contacto</title>
+  <!--AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--titulo-->
   <!--css-->
   <link rel="stylesheet" href="../css/style.css">
@@ -28,7 +30,7 @@
 
 </head>
 
-<body>
+<body >
   <header class="navBar">
     <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
@@ -55,23 +57,13 @@
                             href="../html/actividades.html">Actividades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./colonia-de-verano.html">Colonia de verano</a>
-                    <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./fotos.html">Fotos</a>
+                        <a class="nav-link" href="./galeria.html">Galería</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./historia.html">Historia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./proyecto-anual.html">Proyecto Anual</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
-                    </li>
-                    </ul>
                     </li>
                     </ul>
                 </div>
@@ -80,12 +72,12 @@
     </nav>
 </header>
   <!--fin de navbar-->
-  <h2 class="subtitulo" >Contacto</h2> <!--Subtitulo-->
+  <h2 class="subtitulo" data-aos="fade-up" >Contacto</h2> <!--Subtitulo-->
   <nav class="cuerpo-contacto"></nav>
   <h3 class="animate__animated animate__bounceInDown">Horario</h3>
   <!--animacion-->
 
-  <div>
+  <div data-aos="zoom-in-right">
     <p><strong> </p>
     Actualmente trabajamos de Lunes a Viernes en dos turnos.
     Turno mañana de 09:00 hs a 11:45 hs y turno tarde de 13:00 hs a 16:30 hs.
@@ -97,6 +89,23 @@
       <li>Teléfono: 4640-0103</li></strong>
     </ul>
   </div>
+  <h3 class="formularioTitle">Envíenos un mensaje</h3>
+  <div class="formularioContacto">
+  <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/xzbobyaa" method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="full-name">Nombre Completo</label> 
+      <input type="text" name="name" id="full-name" placeholder="Nombre y Apellido" required=""> <br>
+      <label for="email-address">Email</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@ejemplo" required=""> <br>
+      <label for="telephone">Teléfono de Contacto (Opcional)</label>
+      <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"><br>
+      <label for="complaint">Mensaje</label>
+      <textarea rows="6" name="complaint" id="complaint" placeholder="Escriba aquí su mensaje" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+    </fieldset>
+    <input type="submit" value="Enviar">
+  </form>
+</div></div>
   <!--acá inicia mi footer-->
  <!-- Footer -->
  <footer class="text-center text-lg-start bg-dark text-muted">
@@ -112,11 +121,11 @@
     <div>
       <i class="svg-iconos"><a
           href="https://www.facebook.com/Casa-de-ni%C3%B1o-y-centro-juvenil-los-genios-de-la-infancia-413405769035690/"
-          class="me-4 text-reset" target="_blank"><img src="../facebook.svg" alt="facebookGenios" width="30" height="30"></a></i>
+          class="me-4 text-reset" target="_blank"><img src="../imagen/svg/facebook.svg" alt="facebookGenios" width="30" height="30"></a></i>
       <!--FACEBOOK-->
       <!--INSTAGRAM-->
       <i class="svg-iconos"><a href="https://www.instagram.com/losgenios2021/?hl=es" class="me-4 text-reset" target="_blank"><img
-            src="../instagram.svg" alt="instagramGenios" width="30" height="30"></i>
+            src="../imagen/svg/instagram.svg" alt="instagramGenios" width="30" height="30"></i>
       </a>
     </div>
     <!-- FIN LADO DERECHO -->
@@ -165,15 +174,15 @@
             CONTACTO
           </h6>
           <!--Titulo ultima columna-->
-          <p><img src="../house-door.svg" alt="icono-direccion-genios"><i class="fas fa-home me-3"></i> Moldes 6039,
+          <p><img src="../imagen/svg/house-door.svg" alt="icono-direccion-genios"><i class="fas fa-home me-3"></i> Moldes 6039,
             Isidro Casanova, BS.AS</p>
           <!--direccion del lugar-->
           <!--MAIL DEL LUGAR-->
-          <p><img src="../mensaje-carta.svg" alt="correoSvg"><i class="fas fa-envelope me-3"></i><a
+          <p><img src="../imagen/svg/mensaje-carta.svg" alt="correoSvg"><i class="fas fa-envelope me-3"></i><a
                 href="mailto:rodrigoie40@gmail.com?Subject=Consulta%20para%20la%20inscripcion">losgenios6039@gmail.com</a>
           </p>
           <!--TELEFONO DE CONTACTO-->
-          <p><img src="../telefono.svg" alt="telefonoContacto"><i class="fas fa-phone me-3"></i>4640-0103</p>
+          <p><img src="../imagen/svg/telefono.svg" alt="telefonoContacto"><i class="fas fa-phone me-3"></i>4640-0103</p>
         </div>
         <!-- FIN DE COLUMNA -->
       </div>
@@ -181,6 +190,11 @@
   </section>
   <!-- Footer -->
 </footer>
+<!--AOS-->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+ AOS.init();
+ </script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>

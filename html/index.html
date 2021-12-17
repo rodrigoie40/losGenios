@@ -16,7 +16,7 @@
   <meta property="og:description"
     content="Los genios busca ofrecer las herramientas necesarias a los niños y jóvenes para que logren desarrollar su autoestima y así afianzar su autonomía para poder convivir de manera tolerante y solidaria en la sociedd en la que viven, para tomar decisiones en forma libre y responsable, que favorezcan a mantener las relaciones interpersonales y contribuyan a su realización personal">
   <!--Hoja de estilos-->
-   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <!--AOS-->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--Bootstrap-->
@@ -33,12 +33,12 @@
 </head>
 <!--Inicio de mi pagina-->
 
-<body  class= "body-color" >
+<body>
   <header class="navBar">
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <!--IMAGEN DE NAVBAR-->
-        <img src="../imagen/icono.png" alt="iconolosgenios" width="8%" height="8%">
+        <img href="./index.html" src="../imagen/icono.png" alt="iconolosgenios" width="10%" height="10%">
         <!--TITULO DEL NAVBAR-->
         <a class="navbar-brand" href="./index.html">Los Genios</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -48,34 +48,25 @@
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <!--TITUO DEL MENU DESPLEGABLE-->
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="./index.html" class="text-muted text-decoration=none">Los Genios</a></h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="./index.html"
+                class="text-muted text-decoration=none">Los Genios</a></h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
+              <li class="nav-item">
                 <!--ACA COMIENZAN LAS PAGINAS DEL MENU DESPLEGABLE-->
-                <a class="nav-link active" aria-current="page" href="../html/quienes-somos.html">Quienes somos</a>
-                <li class="nav-item"><!--ACA COMIENZAN LAS PAGINAS DEL MENU DESPLEGABLE-->
-                  <a class="nav-link active" aria-current="page"
-                      href="../html/actividades.html">Actividades</a>
+                <a class="nav-link active" aria-current="page" href="../html/actividades.html">Actividades</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="./colonia-de-verano.html">Colonia de verano</a>
-              <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="./fotos.html">Fotos</a>
+                <a class="nav-link" href="./galeria.html">Galería</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="./historia.html">Historia</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="./proyecto-anual.html">Proyecto Anual</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+                <a class="nav-link" href="./historia.html">Historia</a>
               </li>
             </ul>
             </li>
@@ -87,104 +78,151 @@
   </header>
   <!--fin de navbar-->
   <!--Fin barra de navegación-->
-  <div data-aos="flip-left" data-aos-delay="1200" class="subtituloGenios">
+  <div data-aos="flip-left" class="subtituloGenios">
     <p><sup class="subSup">Casa de niño</sup> Los Genios <sub class="subSup">Centro juvenil</sub></p>
   </div>
-  <!--Acá iría el carrusel de fotos-->
-  <!--NO PUEDO PASAR LAS FOTOS CONN LA FLECHA QUE ME PONE BOOTSTRAP-->
-  <div id="carouselGenios" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+  <!--PRESENTACION-->
+  <div class="row">
+    <div class="col-lg-6 mx-auto">
+
+      <!-- contenido caja-->
+      <div class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+        <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+        <p class="mb-0 mt-2 font-italic">¿Quienes somos? <br>
+          Somos una institución que nació como un espacio de educación
+          popular y las personas que trabajan en él lo hacen de manera conjunta. Si bien, cada uno de nosotros tiene un
+          rol específico, solemos ayudarnos y complementarnos para desarrollar mas eficientemente la tarea en cuestión.
+          Contamos con un basto personal que puede dividirse en:
+          <ul>
+            <li>Personal de maestranza</li>
+            <li>Cocineros</li>
+            <li>Educadores</li>
+            <li>Talleristas</li></p>
+          </ul>
+        </div><!-- Fin primer caja -->
+
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../fotos-videos/apoyo.jpg" class="d-block w-100 " alt="apoyo escolar">
-      </div>
-      <div class="carousel-item">
-        <img src="../fotos-videos/fotos-actividades/ajedrez.jpg" class="d-block w-100" alt="clases de ajedrez">
-      </div>
-      <div class="carousel-item">
-        <img src="../fotos-videos/51087983_763798197329777_1264709036486426624_n.jpg" class="d-block w-100"
-          alt="colonia de verano">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-  <!-- Fin de carrusel-->
+  </div>
+  <!--segunda caja-->
+  <div class="row">
+    <div class="col-lg-6 mx-auto">
+
+        <!-- contenido caja 2 -->
+        <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+            <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+            <p class="mb-0 mt-2 font-italic"> ¿Que buscamos? <br>
+              Siendo que las edades de 6 a 18 (rango etario con el que trabajamos) es crucial para la formación personal del futuro
+              adulto, desde nuestra parte intentamos ofrecer las herramientas necesarias a los niños y jóvenes para que logren
+              desarrollar su autoestima y así afianzar su autonomía para poder convivir de manera tolerante y solidaria en la
+              sociedad en la que viven, para tomar decisiones en forma libre y responsable, que favorezcan a mantener las relaciones
+              interpersonales y contribuyan a su realización."</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--tercer caja-->
+  <div class="row">
+    <div class="col-lg-6 mx-auto">
+
+        <!-- contenido caja 3 -->
+        <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+            <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+            <p class="mb-0 mt-2 font-italic">¿Cómo? <br>
+              Tenemos como objetivo brindar un espacio de contención y apoyo para los niñxs que mas lo necesitan, buscando reducir
+              de cierta manaera las desigualdades sociales a las que se ven sometidos desde el nacimiento. De manera que ofrecemos
+              un almuerzo y desayuno o merienda (dependiendo el turno), intentando asegurar la buena nutricion del niñx, siendo que
+              la desnutricion infantil es una de las causas de enfermedad mas comun en ninx procedentes de familias humildes. Se
+              brinda ayuda con las materias escolares favoreciendo la educación y el aprendizaje, denotando la importancia de
+              terminar los estudios primarios y secundarios ya que muchos deciden abandonarlos por la necesidad de trabajar. A su
+              vez, se ofrece ayuda psicologica y actividades recreativas que estimulan la comunicacion y la expresion emocional, asi
+              como permiten al niñx jugar de manera que desarrolla creatividad y la imaginación.
+              Nuestros ejes principales son:
+              <ul>
+                <li>E.S.I (Educación Sexual Integral)</li>
+                <li>Diversidad Cultural</li>
+                <li>Recreación</li>
+                <li>Aprendizaje- Ejes temáticos abordados a partir del juego</li>
+                <li>Danza- a partir de la expresión corporal como herramienta de conocimiento del movimiento</li>
+                <li>Música- recorriendo los diversos estilos e instrumentos.</li></p>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  <!--Acá podrias poner una de las fotos lindas esquinadita, no un carrusel porfavor, te amo <3 -->
+
   <!--TARJETAS-->
-  <section class="tarjetas">
+  <section data-aos="fade-down" class="tarjetas">
     <div class="container">
-    <div class="row">
-   <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://i.pinimg.com/564x/c7/aa/23/c7aa23241ea3b9ceae1c7e080bbadb1d.jpg');">
-          <div class="card-img-overlay d-flex flex-column">
-           <div class="card-body">
-              <small class="card-meta mb-2">Actividades</small>
-              <h4 class="card-title mt-0 "><a class="text-white" href="./actividades.html">Detalles de las actividades realizadas en el centro</a></h4>
-            </div>
-            <div class="card-footer">
-             <div class="media">
-               <img class="mr-3 rounded-circle" src="../imagen/icono.png" alt="geniosLogo" style="max-width: 80px;">
-    <div class="media-body">
-      <h6 class="my-0 text-white d-block">Los Genios</h6>
-      <small>casa de niñx</small>
-    </div>
-  </div>
-            </div>
-          </div>
-        </div></div>
-       <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://i.pinimg.com/564x/c6/f8/03/c6f803f2863b41f300fc6a7deff7b448.jpg');" href="./colonia-de-verano.html">
-          <div class="card-img-overlay d-flex flex-column">
-           <div class="card-body">
-              <small class="card-meta mb-2">Colonia de Verano</small>
-              <h4 class="card-title mt-0 "><a class="text-white" href="./colonia-de-verano.html">Fotos de la última colonia de verano</a></h4>
-            </div>
-            <div class="card-footer">
-             <div class="media">
-               <img class="mr-3 rounded-circle" src="../imagen/icono.png" alt="geniosLogo" style="max-width: 80px;">
-    <div class="media-body">
-      <h6 class="my-0 text-white d-block">Los Genios</h6>
-      <small>casa de niñx</small>
-    </div>
-  </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-white card-has-bg click-col"
+            style="background-image:url('https://i.pinimg.com/564x/c7/aa/23/c7aa23241ea3b9ceae1c7e080bbadb1d.jpg');">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-body">
+                <small class="card-meta mb-2">Actividades</small>
+                <h4 class="card-title mt-0 "><a class="text-white" href="./actividades.html">Detalles de las actividades
+                    realizadas en el centro</a></h4>
+              </div>
+              <div class="card-footer">
+                <div class="media">
+                  <img class="mr-3 rounded-circle" src="../imagen/icono.png" alt="geniosLogo" style="max-width: 90px;">
+                  <div class="media-body">
+                    <h6 class="my-0 text-white d-block">Los Genios</h6>
+                    <small>casa de niñx</small>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div></div>
-    <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://i.pinimg.com/564x/06/8e/96/068e9609d55df2bb3666c48385bd6e1f.jpg');">
-          <div class="card-img-overlay d-flex flex-column">
-           <div class="card-body">
-              <small class="card-meta mb-2">Proyecto Anual</small>
-              <h4 class="card-title mt-0 "><a class="text-white" href="./proyecto-anual.html">Adelanto del proyecto anual</a></h4>
-            </div>
-            <div class="card-footer">
-             <div class="media">
-    <img class="mr-3 rounded-circle" src="../imagen/icono.png" alt="logoGenios" style="max-width:80px;">
-    <div class="media-body">
-      <h6 class="my-0 text-white d-block">Los Genios</h6>
-       <small>casa de niñx</small>
-    </div>
-  </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white card-has-bg click-col"
+            style="background-image:url('https://i.pinimg.com/564x/c6/f8/03/c6f803f2863b41f300fc6a7deff7b448.jpg');"
+            href="./colonia-de-verano.html">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-body">
+                <small class="card-meta mb-2">Galería</small>
+                <h4 class="card-title mt-0 "><a class="text-white" href="./fotos.html">Fotos institucionales</a></h4>
+              </div>
+              <div class="card-footer">
+                <div class="media">
+                  <img class="mr-3 rounded-circle" src="../imagen/icono.png" alt="geniosLogo" style="max-width: 90px;">
+                  <div class="media-body">
+                    <h6 class="my-0 text-white d-block">Los Genios</h6>
+                    <small>casa de niñx</small>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div></div>
-  </div>  
-  </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white card-has-bg click-col"
+            style="background-image:url('https://i.pinimg.com/564x/06/8e/96/068e9609d55df2bb3666c48385bd6e1f.jpg');">
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-body">
+                <small class="card-meta mb-2">Historia</small>
+                <h4 class="card-title mt-0 "><a class="text-white" href="./historia.html">Breve historia de la institución</a></h4>
+              </div>
+              <div class="card-footer">
+                <div class="media">
+                  <img class="mr-3 rounded-circle" src="../imagen/icono.png" alt="logoGenios" style="max-width: 90px;">
+                  <div class="media-body">
+                    <h6 class="my-0 text-white d-block">Los Genios</h6>
+                    <small>casa de niñx</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
- 
-                                             <!--acá inicia mi footer-->
+
+  <!--acá inicia mi footer-->
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-dark text-muted">
     <!-- SECCION REDES SOCIALES -->
@@ -199,11 +237,12 @@
       <div>
         <i class="svg-iconos"><a
             href="https://www.facebook.com/Casa-de-ni%C3%B1o-y-centro-juvenil-los-genios-de-la-infancia-413405769035690/"
-            class="me-4 text-reset" target="_blank"><img src="../imagen/svg/facebook.svg" alt="facebookGenios" width="30" height="30"></a></i>
+            class="me-4 text-reset" target="_blank"><img src="../imagen/svg/facebook.svg" alt="facebookGenios"
+              width="30" height="30"></a></i>
         <!--FACEBOOK-->
         <!--INSTAGRAM-->
-        <i class="svg-iconos"><a href="https://www.instagram.com/losgenios2021/?hl=es" class="me-4 text-reset" target="_blank"><img
-              src="../imagen/svg/instagram.svg" alt="instagramGenios" width="30" height="30"></i>
+        <i class="svg-iconos"><a href="https://www.instagram.com/losgenios2021/?hl=es" class="me-4 text-reset"
+            target="_blank"><img src="../imagen/svg/instagram.svg" alt="instagramGenios" width="30" height="30"></i>
         </a>
       </div>
       <!-- FIN LADO DERECHO -->
@@ -232,15 +271,16 @@
             </h6>
             <p>cuenta con el apoyo de:</p>
             <p>
-              <a href="https://www.gba.gob.ar/desarrollo_de_la_comunidad/asistencia/envion"
-                class="text-reset" target="_blank">Envión</a>
+              <a href="https://www.gba.gob.ar/desarrollo_de_la_comunidad/asistencia/envion" class="text-reset"
+                target="_blank">Envión</a>
             </p>
             <p>
               <a href="https://www.ar.undp.org/content/argentina/es/home/sustainable-development-goals.html"
                 class="text-reset" target="_blank">PNUD</a>
             </p>
             <p>
-              <a href="https://www.gba.gob.ar/desarrollo_de_la_comunidad/asistencia/udi" class="text-reset" target="_blank">UDI</a>
+              <a href="https://www.gba.gob.ar/desarrollo_de_la_comunidad/asistencia/udi" class="text-reset"
+                target="_blank">UDI</a>
             </p>
           </div>
           <!-- FIN DE COLUMNA DEL MEDIO-->
@@ -252,15 +292,17 @@
               CONTACTO
             </h6>
             <!--Titulo ultima columna-->
-            <p><img src="../imagen/svg/house-door.svg" alt="icono-direccion-genios"><i class="fas fa-home me-3"></i> Moldes 6039,
+            <p><img src="../imagen/svg/house-door.svg" alt="icono-direccion-genios"><i class="fas fa-home me-3"></i>
+              Moldes 6039,
               Isidro Casanova, BS.AS</p>
             <!--direccion del lugar-->
             <!--MAIL DEL LUGAR-->
             <p><img src="../imagen/svg/mensaje-carta.svg" alt="correoSvg"><i class="fas fa-envelope me-3"></i><a
-                  href="mailto:rodrigoie40@gmail.com?Subject=Consulta%20para%20la%20inscripcion">losgenios6039@gmail.com</a>
+                href="mailto:rodrigoie40@gmail.com?Subject=Consulta%20para%20la%20inscripcion">losgenios6039@gmail.com</a>
             </p>
             <!--TELEFONO DE CONTACTO-->
-            <p><img src="../imagen/svg/telefono.svg" alt="telefonoContacto"><i class="fas fa-phone me-3"></i>4640-0103</p>
+            <p><img src="../imagen/svg/telefono.svg" alt="telefonoContacto"><i class="fas fa-phone me-3"></i>4640-0103
+            </p>
           </div>
           <!-- FIN DE COLUMNA -->
         </div>
@@ -268,10 +310,10 @@
     </section>
     <!-- Footer -->
   </footer>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
- <script>
- AOS.init();
- </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
@@ -279,4 +321,5 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
