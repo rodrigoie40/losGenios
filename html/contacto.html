@@ -73,39 +73,35 @@
 </header>
   <!--fin de navbar-->
   <h2 class="subtitulo" data-aos="fade-up" >Contacto</h2> <!--Subtitulo-->
-  <nav class="cuerpo-contacto"></nav>
-  <h3 class="animate__animated animate__bounceInDown">Horario</h3>
+  <h3 class="horarioCont animate__animated animate__bounceInDown  ">Horario</h3>
   <!--animacion-->
 
   <div data-aos="zoom-in-right">
-    <p><strong> </p>
+    <strong> <p class="cuerpoContacto">
     Actualmente trabajamos de Lunes a Viernes en dos turnos.
     Turno mañana de 09:00 hs a 11:45 hs y turno tarde de 13:00 hs a 16:30 hs.
     Sábados la institución posee un taller de ajedrez de 09:00 hs a 12:30 hs
     Puede comunicarse con nosotros vía:
-    <ul class="contacto-transformNumero">
+    <ul class="contacto-transformNumero cuerpoContacto" >
       <li>MAIL: <a
         href="mailto:rodrigoie40@gmail.com?Subject=Consulta%20para%20la%20inscripcion">losgenios6039@gmail.com</a></li>
       <li>Teléfono: 4640-0103</li></strong>
-    </ul>
-  </div>
-  <h3 class="formularioTitle">Envíenos un mensaje</h3>
-  <div class="formularioContacto">
-  <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/xzbobyaa" method="post">
+    </ul></p></div>
+  
+  <h3 class="subtColonia">Envíenos un mensaje</h3>
+  <strong>
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
     <fieldset id="fs-frm-inputs">
-      <label for="full-name">Nombre Completo</label> 
-      <input type="text" name="name" id="full-name" placeholder="Nombre y Apellido" required=""> <br>
-      <label for="email-address">Email</label>
-      <input type="email" name="_replyto" id="email-address" placeholder="email@ejemplo" required=""> <br>
-      <label for="telephone">Teléfono de Contacto (Opcional)</label>
-      <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"><br>
-      <label for="complaint">Mensaje</label>
-      <textarea rows="6" name="complaint" id="complaint" placeholder="Escriba aquí su mensaje" required=""></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+      <label for="full-name">Nombre Completo</label>
+      <input type="text" name="name" id="full-name" placeholder="Nombre y Apellido" required="">
+      <label for="email-address">Dirección de e-mail</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@ejemplo" required="">
+      <label for="message">Mensaje</label>
+      <textarea rows="5" name="message" id="message" placeholder="Escriba aquí su mensaje." required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
     </fieldset>
     <input type="submit" value="Enviar">
-  </form>
-</div></div>
+  </form></strong>
   <!--acá inicia mi footer-->
  <!-- Footer -->
  <footer class="text-center text-lg-start bg-dark text-muted">
